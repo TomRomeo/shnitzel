@@ -1,0 +1,14 @@
+.darkBG {
+    background-color: #131313;
+}
+.white {
+    color: white;
+}
+
+.container {
+    @extend .darkBG;
+    
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
